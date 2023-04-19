@@ -15,7 +15,7 @@ main h1 {
 }
 
 main #mainNavBar {
-    background-color: #086788;
+    background-color: #0077B5;
     /* #06AED5  #086788*/
 }
 
@@ -26,4 +26,19 @@ main .mainIntro{
 #mainNavBar a{
     color: #fff;
     font-size: 1.3rem;
+}
+
+.carousel-item img{
+    height: 500px;
+}
+
+.todaySP{
+    color: white;
+    background-color: #0077B5;
+}
+
+.todaySP h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
 }
