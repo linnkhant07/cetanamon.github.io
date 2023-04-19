@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #086788;
+    color: black;
 }
 
 main h1 {
@@ -15,7 +15,8 @@ main h1 {
 }
 
 main #mainNavBar {
-    background-color: #0077B5;
+    background-color: #202124;
+    height: 80px;
     /* #06AED5  #086788*/
 }
 
@@ -34,7 +35,7 @@ main .mainIntro{
 
 .todaySP{
     color: white;
-    background-color: #0077B5;
+    background-color: #202124;
 }
 
 .todaySP h2 {
@@ -45,6 +46,6 @@ main .mainIntro{
 
 .todaySP section .blurb button {
     background-color: white;
-    color: #0077B5;
+    color: #202124;
     font-weight: 600;
 }
