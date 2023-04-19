@@ -42,3 +42,9 @@ main .mainIntro{
     font-size: 3rem;
     font-weight: 600;
 }
+
+.todaySP section .blurb button {
+    background-color: white;
+    color: #0077B5;
+    font-weight: 600;
+}
