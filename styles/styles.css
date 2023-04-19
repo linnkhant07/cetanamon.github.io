@@ -9,7 +9,21 @@ body {
     color: #086788;
 }
 
-h1 {
+main h1 {
     font-weight: 600;
     font-size: 3rem;
+}
+
+main #mainNavBar {
+    background-color: #086788;
+    /* #06AED5  #086788*/
+}
+
+main .mainIntro{
+    height: 100vh;
+}
+
+#mainNavBar a{
+    color: #fff;
+    font-size: 1.3rem;
 }
