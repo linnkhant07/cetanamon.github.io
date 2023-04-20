@@ -45,7 +45,7 @@ main .mainIntro{
     font-weight: 600;
 }
 
-.todaySP h3 {
+h3 {
     font-size: 2.5rem;
     font-weight: 600;
 }
@@ -77,9 +77,21 @@ svg{
     margin-bottom: 25px;
 }
 
+.reviews {
+    border: 1px solid #202124;
+    height: 500px;
+    text-align: center;
+}
+
+.about {
+    border: 1px solid royalblue;
+    height: 500px;
+    text-align: center;
+}
+
 footer{
     margin-top: 40px;
-    height: 50vh;
+    max-height: 55vh;
     font-size: 20px;
 }
 
