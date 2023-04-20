@@ -1,37 +1,10 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
-    color: black;
-    
-}
-
 main h1 {
     font-weight: 600;
-    font-size: 3rem;
-}
-
-main #mainNavBar {
-    background-color: #202124;
-    height: 80px;
-    /* #06AED5  #086788*/
+    font-size: 2rem;
 }
 
 main .mainIntro{
     height: 100vh;
-}
-
-#mainNavBar a{
-    color: #fff;
-    font-size: 1.3rem;
-}
-
-.carousel-item img{
-    height: 500px;
 }
 
 .todaySP{

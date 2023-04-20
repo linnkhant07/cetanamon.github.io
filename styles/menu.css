@@ -1,0 +1,12 @@
+h1 {
+    display: block;
+    max-width: 1000px;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid;
+}
+
+.secondary{
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    
+}
+
+main #mainNavBar {
+    background-color: #202124;
+    height: 65px;
+    /* #06AED5  #086788*/
+}
+
+#mainNavBar a{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.carousel-item img{
+    height: 500px;
+}
