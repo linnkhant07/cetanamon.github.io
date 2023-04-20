@@ -10,3 +10,12 @@ h1 {
     text-align: center;
     font-size: 18px;
 }
+
+.card {
+    width: 48%;
+    margin: 8px;
+}
+
+.card img {
+    width: 100%;
+}
