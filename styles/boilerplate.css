@@ -7,10 +7,9 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: black;
-    
 }
 
-main #mainNavBar {
+#mainNavBar {
     background-color: #3399ff;
     height: 65px;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);

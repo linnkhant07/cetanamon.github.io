@@ -6,6 +6,9 @@ h1 {
     border-bottom: 1px solid;
 }
 
+body{
+    background: linear-gradient(to bottom right, white 50%, #3399ff 50%);
+}
 
 .secondary{
     text-align: center;
@@ -19,4 +22,8 @@ h1 {
 
 .card img {
     width: 100%;
+}
+
+.menu {
+    margin-top: 55px;
 }

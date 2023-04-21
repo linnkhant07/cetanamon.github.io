@@ -1,5 +1,5 @@
 main {
-    height: 100vh;
+    height: 93vh;
     background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/
     url('../imgs/homepic_auto_custom.jpg');
     /* https://images.unsplash.com/photo-1559521783-1d1599583485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80 */
@@ -16,8 +16,8 @@ main h1 {
     font-size: 2rem;
 }
 
-main .mainIntro{
-    height: 100vh;
+.intro {
+    margin-top: 40px;
 }
 
 .todaySP{
@@ -73,27 +73,38 @@ svg{
 
 .about {
     color: white;
-    background-color: #3399ff; 
-    height: 400px;
+    background-color: #3399ff;
+    /* height: 450px; */
     text-align: center;
+    padding-bottom: 40px;
 }
 
-.about-text{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+.about-text {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 footer{
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
     padding: 20px;
-    color: white;
+    color: white; 
+    /* 3399ff */
     background-color: #202124;
-    height: 55vh;
+    /* height: 60vh; */
     font-size: 20px;
+    padding: 40px;
 }
 
 footer h2{
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
+}
+
+footer h5{
+    margin-top: 20px;
 }
