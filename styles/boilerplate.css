@@ -11,8 +11,9 @@ body {
 }
 
 main #mainNavBar {
-    background-color: #202124;
+    background-color: #3399ff;
     height: 65px;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
     /* #06AED5  #086788*/
 }
 
