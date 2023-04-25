@@ -86,4 +86,50 @@ nutritionLink2.addEventListener("click", function(e) {
     nutritionLink2.classList.add("active");
 });
 
+//for ShanNoodles
 
+const descriptionLink3 = document.querySelector("#description-link-shan");
+const historyLink3 = document.querySelector("#history-link-shan");
+const nutritionLink3 = document.querySelector("#nutrition-link-shan");
+
+const links3 = [descriptionLink3, historyLink3, nutritionLink3]
+
+const descriptionDiv3 = document.querySelector("#description-shan");
+const historyDiv3 = document.querySelector("#history-shan");
+const nutritionDiv3 = document.querySelector("#nutrition-shan");
+
+const removeLinks3 = () => {
+    for(let link of links3){
+        link.classList.remove("active");
+    }
+}
+
+descriptionLink3.addEventListener("click", function(e) {
+    e.preventDefault();
+    descriptionDiv3.style.display = "block";
+    historyDiv3.style.display = "none";
+    nutritionDiv3.style.display = "none";
+    removeLinks3();
+    descriptionLink3.classList.add("active");
+});
+
+historyLink3.addEventListener("click", function(e) {
+    e.preventDefault();
+    descriptionDiv3.style.display = "none";
+    historyDiv3.style.display = "block";
+    nutritionDiv3.style.display = "none";
+    removeLinks3();
+    historyLink3.classList.add("active");
+});
+
+nutritionLink3.addEventListener("click", function(e) {
+    e.preventDefault();
+    descriptionDiv3.style.display = "none";
+    historyDiv3.style.display = "none";
+    nutritionDiv3.style.display = "block";
+    removeLinks3();
+    nutritionLink3.classList.add("active");
+});
+
+
+// I WILL DEFINTELY FIX THIS AND USE A LOGIC 
